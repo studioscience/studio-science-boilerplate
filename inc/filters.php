@@ -13,7 +13,7 @@
  * @return array
  */
 
-function studioscience_body_classes( $classes ) {
+function studioscienceboilerplate_body_classes( $classes ) {
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
 		$classes[] = 'hfeed';
@@ -21,26 +21,26 @@ function studioscience_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'studioscience_body_classes' );
+add_filter( 'body_class', 'studioscienceboilerplate_body_classes' );
 
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
  */
-function studioscience_pingback_header() {
+function studioscienceboilerplate_pingback_header() {
 	if ( is_singular() && pings_open() ) {
 		echo '<link rel="pingback" href="', esc_url( get_bloginfo( 'pingback_url' ) ), '">';
 	}
 }
-add_action( 'wp_head', 'studioscience_pingback_header' );
+add_action( 'wp_head', 'studioscienceboilerplate_pingback_header' );
 
 /**
  * Add ACF Local json files.
  */ 
-function studioscience_acf_json_save_point( $path ) {
+function studioscienceboilerplate_acf_json_save_point( $path ) {
     // update path
     $path = get_stylesheet_directory() . '/acf-json';
        
     // return
     return $path;   
 }
-add_filter('acf/settings/save_json', 'studioscience_acf_json_save_point');
+add_filter('acf/settings/save_json', 'studioscienceboilerplate_acf_json_save_point');
