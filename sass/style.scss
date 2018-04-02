@@ -1,0 +1,50 @@
+/*!
+Theme Name: Studio Science
+Theme URI: https://www.studioscience.com/
+Author: Studio Science
+Author URI: https://www.studioscience.com/
+Description: Description
+Version: 1.0.0
+Text Domain: studioscience
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "base/normalize";
+
+/*--------------------------------------------------------------
+# Vendors
+--------------------------------------------------------------*/
+
+//@import "vendors/vendor";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/typography";
+@import "base/global";
+
+/*--------------------------------------------------------------
+# Partials
+--------------------------------------------------------------*/
+
+//@import "partials/partial";
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+
+//@import "modules/module";
+
+/*--------------------------------------------------------------
+# Views
+--------------------------------------------------------------*/
+
+//@import "views/view";
