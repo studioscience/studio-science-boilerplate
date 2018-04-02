@@ -1,10 +1,10 @@
 ## Getting Started
 
-### Studio Science Started Theme
+### Studio Science Starter Theme
 Built by Studio Science Development Team
 
 ### Setup and Commands
-Installs dependancies from package.json file.
+Installs dependencies from package.json file.
 ```
 npm install
 ```
@@ -15,7 +15,7 @@ gulp
 ```
 
 ### Version Control
-Versioning of the repository should follow the general guid3lines of Semantic Versioning on semver.org. X.Y.Z (Major.Minor.Patch). Patches are self explanitory. New features, that do not break backward compatibility will increment the Y (Minor). New features that break backward compatibility or major revisions will increment the X (Major).
+Versioning of the repository should follow the general guidelines of Semantic Versioning on semver.org. X.Y.Z (Major.Minor.Patch). Patches are self explanatory. New features, that do not break backward compatibility will increment the Y (Minor). New features that break backward compatibility or major revisions will increment the X (Major).
 
 ### GIT
 The preferred GIT branching model should follow the general guidelines in the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">article</a> by Vincent Driessen, A successful Git branching model. It is highly recommended to learn and follow these guidelines.
@@ -24,7 +24,7 @@ The preferred GIT branching model should follow the general guidelines in the <a
 master or production -> Always stable. Supplies Production environment.
 development -> Contains features and bug fixes currently being worked on. When stable, merged to master or release branch as applicable.
 feature-* -> Branch off of develop. Used for creating new features. When approved, merged back to develop branch.
-release-* or staging -> Branch from develop. Evaluation of release to go into production. Free's the develop branch to immediate take the next feature development pushes.
+release-* or staging -> Branch from develop. Evaluation of release to go into production. Frees the develop branch to immediate take the next feature development pushes.
 hotfix-* -> Used for fixes, when a critical bug is found in production.
 
 ### Issue Tracker
