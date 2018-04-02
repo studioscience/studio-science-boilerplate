@@ -68,39 +68,39 @@ Then, update the stylesheet header in `sass/style.scss` and rename `studioscienc
 
 ```
 /your-theme-name/				# → Main theme folder in wp-content
-├── acf-json/					# → ACF local json files ( <a href="https://www.advancedcustomfields.com/resources/local-json/" target="_blank">Local Json</a> )
+├── acf-json/					# → ACF local json files ( Local Json )
 ├── assets/						# → Theme assets
-│   ├── fonts/					# → Theme fonts
-│   ├── icons/					# → Theme icons
-│   └── images/					# → Theme images
-│       └── raw/				# → Images optimized with gulp and saved in parent folder
+│	├── fonts/					# → Theme fonts
+│	├── icons/					# → Theme icons
+│	└── images/					# → Theme images
+│		└── raw/				# → Images optimized with gulp and saved in parent folder
 ├── inc/						# → Theme PHP
-│   ├── cpt/					# → Custom post types
-│   ├── filters.php				# → Theme filters
-│   ├── helpers.php				# → Helper functions
-│   └── setup.php				# → Theme setup
+│	├── cpt/					# → Custom post types
+│	├── filters.php				# → Theme filters
+│	├── helpers.php				# → Helper functions
+│	└── setup.php				# → Theme setup
 ├── js/							# → Theme JS
-│   ├── custom/					# → Custom Javascript
-│   └── vendors/				# → Vendors, JS Plugins, JS libraries
+│	├── custom/					# → Custom Javascript
+│	└── vendors/				# → Vendors, JS Plugins, JS libraries
 ├── languages/					# → Localization files for translation
-│   └── your-theme-name.pot		# → Portable Object Template
+│	└── your-theme-name.pot		# → Portable Object Template
 ├── node_modules/				# → Node.js packages (never push to production server)
 ├── sass/						# → Theme stylesheets
-│   ├── base/					# → Base theme styles folder 
-│   │   ├── _normalize.scss		# → HTML element and attribute rulesets to normalize styles across all browsers
-│   │   ├── global.scss			# → Global styles
-│   │   ├── mixins.scss			# → Custom mixins
-│   │   ├── typography.scss		# → Extendable typography styles		
-│   │   └── variables.scss		# → Stylesheet variables
-│   ├── modules/				# → Modules styles
-│   ├── partials/				# → Patial styles
-│   ├── vendors/				# → Vendor styles
-│   ├── views/					# → Views styles
-│   └── style.scss				# → Theme meta information and scss file imports
+│	├── base/					# → Base theme styles folder 
+│	│	├── _normalize.scss		# → HTML element and attribute rulesets to normalize styles across all browsers
+│	│	├── global.scss			# → Global styles
+│	│	├── mixins.scss			# → Custom mixins
+│	│	├── typography.scss		# → Extendable typography styles		
+│	│	└── variables.scss		# → Stylesheet variables
+│	├── modules/				# → Modules styles
+│	├── partials/				# → Patial styles
+│	├── vendors/				# → Vendor styles
+│	├── views/					# → Views styles
+│	└── style.scss				# → Theme meta information and scss file imports
 ├── templates/					# → Theme templates
-│   ├── modules/				# → Building blocks of a view
-│   ├── partials/				# → Building blocks that can help build modules
-│   └── views/					# → Templates that will be extended to the Wordpress templates
+│	├── modules/				# → Building blocks of a view
+│	├── partials/				# → Building blocks that can help build modules
+│	└── views/					# → Templates that will be extended to the Wordpress templates
 ├── .gitignore					# → Used by Git to determine which files and directories to ignore
 ├── 404.php						# → Error page template
 ├── archive.php					# → Blog post archive
