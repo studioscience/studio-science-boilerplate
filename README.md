@@ -1,56 +1,61 @@
-GETTING STARTED
----------------
+## Getting Started
 
-Studio Science Started Theme
+### Studio Science Started Theme
 Built by Studio Science Development Team
 
-Setup and Commands
-npm install : Installs dependancies from package.json file.
-gulp : Watches style and script files for changes and automatically applies actions and minifies files for production.
+### Setup and Commands
+Installs dependancies from package.json file.
+```
+npm install
+```
 
-Version Control
+Watches style and script files for changes and automatically applies actions and minifies files for production.
+```
+gulp
+```
+
+### Version Control
 Versioning of the repository should follow the general guid3lines of Semantic Versioning on semver.org. X.Y.Z (Major.Minor.Patch). Patches are self explanitory. New features, that do not break backward compatibility will increment the Y (Minor). New features that break backward compatibility or major revisions will increment the X (Major).
 
-GIT
+### GIT
 The preferred GIT branching model should follow the general guidelines in the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">article</a> by Vincent Driessen, A successful Git branching model. It is highly recommended to learn and follow these guidelines.
 
-Branches
+### Branches
 master or production -> Always stable. Supplies Production environment.
 development -> Contains features and bug fixes currently being worked on. When stable, merged to master or release branch as applicable.
 feature-* -> Branch off of develop. Used for creating new features. When approved, merged back to develop branch.
 release-* or staging -> Branch from develop. Evaluation of release to go into production. Free's the develop branch to immediate take the next feature development pushes.
 hotfix-* -> Used for fixes, when a critical bug is found in production.
 
-Issue Tracker
+### Issue Tracker
 All bugs should be reported in the issue tracker. When working on the theme, please take a look at the tracker for outstanding issues.
 
-NPM
+### NPM
 All dependencies (front-end and non-front-end) should be installed using NPM. These dependencies should be defined in package.json and saved in -save--dev flag. All dependencies need to be compiled and minified using gulp for production.
 
-Gulp
+### Gulp
 Gulp is an important part of our front-end development pipeline. We use it to handle SASS and JavaScript compilation as well as minification procedures for production.
 
-Coding Style
+### Coding Style
 Use tabs for indentation (no spaces)
 
-Naming convention
+### Naming convention
 Lowercase names and underscores for variables, functions, and methods.
 Uppercase names and underscores for class names
 All caps for constants
 
-TEMPLATES
----------
+## Templates
 
-Views
+### Views
 Views are templates that will be extended to the Wordpress Loop templates. Templates will be constructed by the use of components.
 
-Modules
+### Modules
 Modules are the building blocks of a View. The use of modules helps isolate blocks of code that help understand and maintain site being worked on by various team members.
 
-Partials
+### Partials
 Partials are smaller building blocks that can help build modules. The main purpose of using partials and not repeating the same code on multiple Components. If you have an item or functionality on more that one Component, it should be a partial that is extended to the Component.
 
-Renaming your theme using Studio Science Boilerplate Template
+### Renaming your theme using Studio Science Boilerplate Template
 
 1. Search for: `'studioscienceboilerplate'` and replace with: `'your-theme-name'`
 2. Search for: `studioscienceboilerplate_` and replace with: `your_theme_name_`
@@ -59,9 +64,9 @@ Renaming your theme using Studio Science Boilerplate Template
 
 Then, update the stylesheet header in `sass/style.scss` and rename `studioscienceboilerplate.pot` from `languages` folder to use the theme's slug. 
 
-FILE STRUCTURE
---------------
+## File Structure
 
+```
 /your-theme-name/   	  		# → Main theme folder in wp-content
 ├── acf-json/             		# → ACF local json files ( <a href="https://www.advancedcustomfields.com/resources/local-json/" target="_blank">Local Json</a> )
 ├── assets/            	  		# → Theme assets
@@ -113,3 +118,4 @@ FILE STRUCTURE
 ├── sidebar.php     			# → Sidebar template
 ├── single.php 	    			# → Blog article template
 └── style.css 	    			# → Theme stylesheet (compiled and created by gulp task from sass folder)
+```
