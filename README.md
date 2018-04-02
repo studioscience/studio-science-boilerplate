@@ -67,55 +67,55 @@ Then, update the stylesheet header in `sass/style.scss` and rename `studioscienc
 ## File Structure
 
 ```
-/your-theme-name/   	  		# → Main theme folder in wp-content
-├── acf-json/             		# → ACF local json files ( <a href="https://www.advancedcustomfields.com/resources/local-json/" target="_blank">Local Json</a> )
-├── assets/            	  		# → Theme assets
-│   ├── fonts/			  		# → Theme fonts
-│   ├── icons/			  		# → Theme icons
-│   └── images/           		# → Theme images
-│       └── raw/   		  		# → Images optimized with gulp and saved in parent folder
-├── inc/                  		# → Theme PHP
-│   ├── cpt/      		  		# → Custom post types
-│   ├── filters.php       		# → Theme filters
-│   ├── helpers.php       		# → Helper functions
-│   └── setup.php         		# → Theme setup
-├── js/                   		# → Theme JS
-│   ├── custom/      	  		# → Custom Javascript
-│   └── vendors/          		# → Vendors, JS Plugins, JS libraries
-├── languages/            		# → Localization files for translation
-│   └── your-theme-name.pot  	# → Portable Object Template
-├── node_modules/         		# → Node.js packages (never push to production server)
-├── sass/            	  		# → Theme stylesheets
-│   ├── base/           		# → Base theme styles folder 
+/your-theme-name/				# → Main theme folder in wp-content
+├── acf-json/					# → ACF local json files ( <a href="https://www.advancedcustomfields.com/resources/local-json/" target="_blank">Local Json</a> )
+├── assets/						# → Theme assets
+│   ├── fonts/					# → Theme fonts
+│   ├── icons/					# → Theme icons
+│   └── images/					# → Theme images
+│       └── raw/				# → Images optimized with gulp and saved in parent folder
+├── inc/						# → Theme PHP
+│   ├── cpt/					# → Custom post types
+│   ├── filters.php				# → Theme filters
+│   ├── helpers.php				# → Helper functions
+│   └── setup.php				# → Theme setup
+├── js/							# → Theme JS
+│   ├── custom/					# → Custom Javascript
+│   └── vendors/				# → Vendors, JS Plugins, JS libraries
+├── languages/					# → Localization files for translation
+│   └── your-theme-name.pot		# → Portable Object Template
+├── node_modules/				# → Node.js packages (never push to production server)
+├── sass/						# → Theme stylesheets
+│   ├── base/					# → Base theme styles folder 
 │   │   ├── _normalize.scss		# → HTML element and attribute rulesets to normalize styles across all browsers
-│   │   ├── global.scss        	# → Global styles
-│   │   ├── mixins.scss        	# → Custom mixins
-│   │   ├── typography.scss     # → Extendable typography styles		
-│   │   └── variables.scss      # → Stylesheet variables
-│   ├── modules/     			# → Modules styles
-│   ├── partials/         		# → Patial styles
-│   ├── vendors/   		    	# → Vendor styles
-│   ├── views/            		# → Views styles
-│   └── style.scss 				# → Theme meta information and scss file imports
-├── templates/               	# → Theme templates
-│   ├── modules/     			# → Building blocks of a view
-│   ├── partials/         		# → Building blocks that can help build modules
-│   └── views/            		# → Templates that will be extended to the Wordpress templates
-├── .gitignore          		# → Used by Git to determine which files and directories to ignore
-├── 404.php          			# → Error page template
-├── archive.php          		# → Blog post archive
-├── comments.php   				# → Comments template
-├── footer.php   				# → Theme footer template
-├── functions.php     			# → Theme includes
-├── gulpfile.js    				# → Javascript task runner
-├── header.php   				# → Theme header template
-├── index.php         			# → Main template file
-├── package.json          		# → Node.js dependencies and scripts
-├── page.php         			# → Main page template file
-├── README.md    				# → This file
-├── screenshot.png    			# → Theme screenshot for WP admin
-├── search.php 	    			# → Search form and result template
-├── sidebar.php     			# → Sidebar template
-├── single.php 	    			# → Blog article template
-└── style.css 	    			# → Theme stylesheet (compiled and created by gulp task from sass folder)
+│   │   ├── global.scss			# → Global styles
+│   │   ├── mixins.scss			# → Custom mixins
+│   │   ├── typography.scss		# → Extendable typography styles		
+│   │   └── variables.scss		# → Stylesheet variables
+│   ├── modules/				# → Modules styles
+│   ├── partials/				# → Patial styles
+│   ├── vendors/				# → Vendor styles
+│   ├── views/					# → Views styles
+│   └── style.scss				# → Theme meta information and scss file imports
+├── templates/					# → Theme templates
+│   ├── modules/				# → Building blocks of a view
+│   ├── partials/				# → Building blocks that can help build modules
+│   └── views/					# → Templates that will be extended to the Wordpress templates
+├── .gitignore					# → Used by Git to determine which files and directories to ignore
+├── 404.php						# → Error page template
+├── archive.php					# → Blog post archive
+├── comments.php				# → Comments template
+├── footer.php					# → Theme footer template
+├── functions.php				# → Theme includes
+├── gulpfile.js					# → Javascript task runner
+├── header.php					# → Theme header template
+├── index.php					# → Main template file
+├── package.json				# → Node.js dependencies and scripts
+├── page.php					# → Main page template file
+├── README.md					# → This file
+├── screenshot.png				# → Theme screenshot for WP admin
+├── search.php					# → Search form and result template
+├── sidebar.php					# → Sidebar template
+├── single.php					# → Blog article template
+└── style.css					# → Theme stylesheet (compiled and created by gulp task from sass folder)
 ```
