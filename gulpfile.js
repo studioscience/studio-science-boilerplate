@@ -26,7 +26,7 @@
 
 // START Editing Project Variables.
 // Project related.
-var project                 = 'Studio Science Boilerplate'; // Project Name.
+var project                 = 'Studio Science Boilerplate Boilerplate'; // Project Name.
 var projectURL              = 'http://studioscienceboilerplate.test'; // Local project URL of your already running WordPress site. Could be something like local.test or localhost:8888.
 var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
@@ -36,8 +36,8 @@ var translationFile         = 'studioscienceboilerplate.pot'; // Name of the tra
 var translationDestination  = './languages'; // Where to save the translation files.
 var packageName             = 'studioscienceboilerplate'; // Package name.
 var bugReport               = 'development@studioscience.com'; // Where can users report bugs.
-var lastTranslator          = 'Studio Science <development@studioscience.com>'; // Last translator Email ID.
-var team                    = 'Studio Science <development@studioscience.com>'; // Team's Email ID.
+var lastTranslator          = 'Studio Science Boilerplate <development@studioscience.com>'; // Last translator Email ID.
+var team                    = 'Studio Science Boilerplate <development@studioscience.com>'; // Team's Email ID.
 
 // Style related.
 var styleSRC                = './sass/style.scss'; // Path to main .scss file.

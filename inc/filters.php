@@ -2,7 +2,7 @@
 /**
  * Theme filters and actions
  *
- * @package Studio_Science
+ * @package Studio_Science_Boilerplate
  */
 
 

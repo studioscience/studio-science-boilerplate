@@ -2,7 +2,7 @@
 /**
  * Theme setup file
  *
- * @package Studio_Science
+ * @package Studio_Science_Boilerplate
  */
 
 if ( ! function_exists( 'studioscience_setup' ) ) :
@@ -17,7 +17,7 @@ if ( ! function_exists( 'studioscience_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Studio Science, use a find and replace
+		 * If you're building a theme based on Studio Science Boilerplate, use a find and replace
 		 * to change 'studioscience' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'studioscience', get_template_directory() . '/languages' );

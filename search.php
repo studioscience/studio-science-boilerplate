@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package Studio_Science
+ * @package Studio_Science_Boilerplate
  */
 
 get_header();

@@ -1,10 +1,10 @@
 <?php
 /**
- * Studio Science functions and definitions
+ * Studio Science Boilerplate functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Studio_Science
+ * @package Studio_Science_Boilerplate
  */
 
 

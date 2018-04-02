@@ -1,7 +1,7 @@
 ## Getting Started
 
-### Studio Science Starter Theme
-Built by Studio Science Development Team
+### Studio Science Boilerplate Starter Theme
+Built by Studio Science Boilerplate Development Team
 
 ### Setup and Commands
 Installs dependencies from package.json file.
@@ -55,12 +55,13 @@ Modules are the building blocks of a View. The use of modules helps isolate bloc
 ### Partials
 Partials are smaller building blocks that can help build modules. The main purpose of using partials and not repeating the same code on multiple Components. If you have an item or functionality on more that one Component, it should be a partial that is extended to the Component.
 
-### Renaming your theme using Studio Science Boilerplate Template
+### Renaming your theme using Studio Science Boilerplate Boilerplate Template
 
 1. Search for: `'studioscienceboilerplate'` and replace with: `'your-theme-name'`
 2. Search for: `studioscienceboilerplate_` and replace with: `your_theme_name_`
 3. Search for: `studioscienceboilerplate-` and replace with: `your-theme-name-`
-4. Search for: `Studio Science Boilerplate` and replace with: `Your Theme Name`
+4. Search for: `Studio Science Boilerplate Boilerplate` and replace with: `Your Theme Name`
+5. Search for: `Studio_Science_Boilerplate_Boilerplate` and replace with: `Your_Theme_Name`
 
 Then, update the stylesheet header in `sass/style.scss` and rename `studioscienceboilerplate.pot` from `languages` folder to use the theme's slug. 
 

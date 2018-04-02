@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Studio_Science
+ * @package Studio_Science_Boilerplate
  */
 
 ?>

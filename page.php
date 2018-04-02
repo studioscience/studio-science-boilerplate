@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Studio_Science
+ * @package Studio_Science_Boilerplate
  */
 
 get_header();

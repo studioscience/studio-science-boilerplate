@@ -2,5 +2,5 @@
 /**
  * Theme helper functions
  *
- * @package Studio_Science
+ * @package Studio_Science_Boilerplate
  */
