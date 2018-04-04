@@ -77,4 +77,25 @@ function studioscienceboilerplate_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'studioscienceboilerplate_scripts' );
 
+/**
+Require Extended CPTs https://github.com/johnbillion/extended-cpts
+ */
+require_once 'extended-cpts/extended-cpts.php';
 
+/*
+Load Custom Post Types
+Extended CPTs https://github.com/johnbillion/extended-cpts/wiki
+*/
+function load_custom_post_types() {
+
+}
+add_action('init', 'load_custom_post_types');
+
+/*
+Load Custom Taxonomies
+Extended Taxonomies https://github.com/johnbillion/extended-cpts/wiki
+*/
+function load_custom_taxonomies() {
+
+}
+add_action('init', 'load_custom_taxonomies');

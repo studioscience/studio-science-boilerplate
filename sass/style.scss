@@ -20,7 +20,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Vendors
 --------------------------------------------------------------*/
 
-//@import "vendors/vendor";
+@import "vendors/vendor-name";
 
 /*--------------------------------------------------------------
 # Base
@@ -35,16 +35,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Partials
 --------------------------------------------------------------*/
 
-//@import "partials/partial";
+@import "partials/partial-name";
 
 /*--------------------------------------------------------------
 # Modules
 --------------------------------------------------------------*/
 
-//@import "modules/module";
+@import "modules/module-name";
 
 /*--------------------------------------------------------------
 # Views
 --------------------------------------------------------------*/
 
-//@import "views/view";
+@import "views/view-name";

@@ -76,7 +76,7 @@ Then, update the stylesheet header in `sass/style.scss` and rename `studioscienc
 │   └── images/                 # → Theme images
 │       └── raw/                # → Images optimized with gulp and saved in parent folder
 ├── inc/                        # → Theme PHP
-│   ├── cpt/                    # → Custom post types
+│   ├── extend-cpts/            # → Extend custom post types and taxonomies (https://github.com/johnbillion/extended-cpts/wiki)
 │   ├── filters.php             # → Theme filters
 │   ├── helpers.php             # → Helper functions
 │   └── setup.php               # → Theme setup
