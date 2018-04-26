@@ -46,9 +46,6 @@ All caps for constants
 
 ## Templates
 
-### Views
-Views are templates that will be extended to the Wordpress Loop templates. Templates will be constructed by the use of components.
-
 ### Modules
 Modules are the building blocks of a View. The use of modules helps isolate blocks of code that help understand and maintain site being worked on by various team members.
 
@@ -96,12 +93,10 @@ Then, update the stylesheet header in `sass/style.scss` and rename `studioscienc
 │   ├── modules/                # → Modules styles
 │   ├── partials/               # → Patial styles
 │   ├── vendors/                # → Vendor styles
-│   ├── views/                  # → Views styles
 │   └── style.scss              # → Theme meta information and scss file imports
 ├── templates/                  # → Theme templates
-│   ├── modules/                # → Building blocks of a view
-│   ├── partials/               # → Building blocks that can help build modules
-│   └── views/                  # → Templates that will be extended to the Wordpress templates
+│   ├── modules/                # → Building blocks of a template
+│   └── partials/               # → Building blocks that can help build modules
 ├── .gitignore                  # → Used by Git to determine which files and directories to ignore
 ├── 404.php                     # → Error page template
 ├── archive.php                 # → Blog post archive
